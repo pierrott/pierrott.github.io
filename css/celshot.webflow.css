@@ -597,7 +597,7 @@ p {
 
 .heading-2 {
   font-family: Merriweather, serif;
-  text-shadow: 1px 1px 6px #be2424, 0 1px 0 rgba(0, 0, 0, 0.49);
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.49);
 }
 
 .image-2 {
@@ -696,6 +696,57 @@ p {
   font-weight: 700;
 }
 
+.button-6 {
+  position: static;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  border-radius: 10px;
+  background-color: #ec3838;
+}
+
+.button-6:hover {
+  background-color: #7f1e1e;
+}
+
+.div-block-4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 70px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 @media screen and (max-width: 991px) {
   .header {
     padding-top: 124px;
@@ -766,8 +817,10 @@ p {
 
 @media screen and (max-width: 767px) {
   .header {
-    padding: 39px 10px 211px;
-    background-position: 0% 174%, 0% 0%;
+    margin-top: -45px;
+    padding: 0px 10px 313px;
+    background-position: 0% 50%, 0% 0%;
+    background-attachment: fixed, scroll;
   }
   .logo-wrapper {
     margin-bottom: 37px;
@@ -867,8 +920,9 @@ p {
 
 @media screen and (max-width: 479px) {
   .header {
-    padding-bottom: 506px;
+    padding-bottom: 431px;
     background-position: 0% 117%, 0% 0%;
+    background-attachment: scroll, scroll;
   }
   .section.sign-up {
     padding-top: 39px;
