@@ -398,10 +398,12 @@ p {
 }
 
 .video {
+  margin-bottom: 15px;
   padding-bottom: 31px;
 }
 
 .video-2 {
+  margin-bottom: 15px;
   padding-bottom: 30px;
 }
 
@@ -607,8 +609,8 @@ p {
 
 .grid {
   grid-auto-flow: row;
-  grid-column-gap: 8px;
-  grid-row-gap: 8px;
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
   -ms-grid-columns: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
   -ms-grid-rows: auto;
@@ -808,6 +810,9 @@ p {
   .heading-2 {
     text-shadow: 4px 4px 0 #000, 0 1px 0 rgba(0, 0, 0, 0.49);
   }
+  .grid {
+    grid-row-gap: 20px;
+  }
   .div-block-3 {
     -webkit-box-pack: center;
     -webkit-justify-content: center;
@@ -916,8 +921,41 @@ p {
   }
   .button-3 {
     margin: 20px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-self: stretch;
+    -ms-flex-item-align: stretch;
+    -ms-grid-row-align: stretch;
+    align-self: stretch;
+  }
+  .button-5 {
+    margin: 20px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    -webkit-align-self: stretch;
+    -ms-flex-item-align: stretch;
+    -ms-grid-row-align: stretch;
+    align-self: stretch;
+  }
+  .div-block {
+    margin-bottom: 25px;
+  }
+  .image-2 {
+    margin-top: 85px;
   }
   .grid {
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
   }
@@ -945,12 +983,23 @@ p {
   .form-button {
     width: 100%;
   }
+  .video {
+    margin-bottom: 15px;
+  }
+  .video-2 {
+    margin-bottom: 15px;
+  }
   .button-3 {
-    margin-right: 0px;
+    margin-right: 20px;
     margin-bottom: 30px;
-    margin-left: 0px;
+    margin-left: 20px;
     padding-right: 9px;
     padding-left: 9px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     text-align: center;
   }
   .button-5 {
@@ -959,6 +1008,13 @@ p {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
+  }
+  .button-5.top {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
   }
 }
 
