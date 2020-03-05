@@ -613,8 +613,8 @@ p {
   grid-row-gap: 15px;
   -ms-grid-columns: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
-  -ms-grid-rows: auto;
-  grid-template-rows: auto;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
 }
 
 .heading-3 {
@@ -748,6 +748,10 @@ p {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+}
+
+.video-3 {
+  border-radius: 10px;
 }
 
 @media screen and (max-width: 991px) {
