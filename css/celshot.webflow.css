@@ -1128,7 +1128,7 @@ p {
   right: 0%;
   bottom: 0%;
   z-index: 9999;
-  display: block;
+  display: none;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -1142,6 +1142,11 @@ p {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  grid-auto-columns: 1fr;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
   background-color: rgba(0, 0, 0, 0.8);
   opacity: 0;
 }
