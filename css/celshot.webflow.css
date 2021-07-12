@@ -256,8 +256,8 @@ p {
 .line {
   width: 50px;
   height: 2px;
-  margin-top: 42px;
-  margin-bottom: 42px;
+  margin-top: 40px;
+  margin-bottom: 40px;
   background-color: #e1e4e8;
 }
 
@@ -485,14 +485,17 @@ p {
 
 .paragraph-5 {
   color: #000;
+  text-align: right;
 }
 
 .paragraph-6 {
   color: #000;
+  text-align: right;
 }
 
 .paragraph-7 {
   color: #000;
+  text-align: right;
 }
 
 .paragraph-8 {
@@ -673,6 +676,7 @@ p {
 
 .heading-9 {
   font-family: Merriweather, serif;
+  text-align: right;
 }
 
 .heading-10 {
@@ -689,10 +693,12 @@ p {
 
 .heading-13 {
   font-family: Merriweather, serif;
+  text-align: right;
 }
 
 .heading-14 {
   font-family: Merriweather, serif;
+  text-align: right;
 }
 
 .heading-15 {
@@ -954,6 +960,10 @@ p {
   width: 100%;
   height: 100%;
   max-width: none;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #297a96;
+  border-radius: 2px;
   -o-object-fit: cover;
   object-fit: cover;
   -o-object-position: 50% 50%;
@@ -1739,7 +1749,7 @@ p {
   }
 
   .pop-up-wrapper {
-    display: block;
+    display: none;
   }
 
   .pop-up-form {
