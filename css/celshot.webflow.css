@@ -1304,6 +1304,11 @@ p {
     text-align: left;
   }
 
+  .line {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
   .feature-group.push-down {
     margin-bottom: 20px;
   }
@@ -1601,6 +1606,18 @@ p {
     margin-left: auto;
   }
 
+  .paragraph-5 {
+    text-align: center;
+  }
+
+  .paragraph-6 {
+    text-align: center;
+  }
+
+  .paragraph-7 {
+    text-align: center;
+  }
+
   .button-5 {
     margin: 20px;
     -webkit-box-orient: horizontal;
@@ -1669,6 +1686,18 @@ p {
 
   .heading-6 {
     font-size: 28px;
+  }
+
+  .heading-9 {
+    text-align: center;
+  }
+
+  .heading-13 {
+    text-align: center;
+  }
+
+  .heading-14 {
+    text-align: center;
   }
 
   .buy-now-button {
@@ -1786,6 +1815,10 @@ p {
 
   .subtitle {
     max-width: 90vw;
+  }
+
+  .line {
+    margin-top: 10px;
   }
 
   .image {
