@@ -1791,7 +1791,9 @@ p {
   padding: 10px;
   border-radius: 5px;
   background-color: transparent;
-  color: #ed3839;
+  color: #000;
+  font-weight: 400;
+  text-shadow: 1px 0 0 #fff;
   white-space: normal;
 }
 
