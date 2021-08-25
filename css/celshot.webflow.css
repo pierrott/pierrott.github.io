@@ -1790,7 +1790,9 @@ p {
 .bold-text-6 {
   padding: 10px;
   border-radius: 5px;
-  background-color: rgba(255, 254, 254, 0.24);
+  background-color: transparent;
+  color: #ed3839;
+  white-space: normal;
 }
 
 @media screen and (max-width: 991px) {
