@@ -630,6 +630,7 @@ p {
 
 .heading {
   display: inline-block;
+  margin-top: 10px;
   margin-bottom: 20px;
   font-family: Merriweather, serif;
   font-weight: 400;
@@ -1297,7 +1298,7 @@ p {
 .navbar {
   position: fixed;
   width: 100vw;
-  background-color: #463426;
+  background-color: rgba(70, 52, 38, 0.89);
 }
 
 .section-info {
@@ -1606,11 +1607,16 @@ p {
 }
 
 .heading-22 {
-  font-family: Lato, sans-serif;
-  color: #192024;
-  font-size: 15px;
-  font-weight: 500;
+  font-family: Merriweather, serif;
+  color: #262b2f;
+  font-size: 18px;
+  font-weight: 400;
   text-align: center;
+}
+
+.heading-22.bold {
+  font-family: Merriweather, serif;
+  font-size: 20px;
 }
 
 .section-2 {
@@ -1767,6 +1773,7 @@ p {
   color: #fff;
   font-weight: 700;
   text-align: center;
+  letter-spacing: 5px;
 }
 
 .bold-text-5 {
