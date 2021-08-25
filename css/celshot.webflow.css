@@ -1581,6 +1581,7 @@ p {
   margin-top: 0px;
   margin-bottom: 0px;
   padding-top: 0px;
+  padding-left: 0px;
   font-family: 'Varela Round', sans-serif;
   color: #020202;
   font-size: 18px;
@@ -1784,6 +1785,12 @@ p {
 
 .html-embed-2 {
   margin-top: 30px;
+}
+
+.bold-text-6 {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgba(255, 254, 254, 0.24);
 }
 
 @media screen and (max-width: 991px) {
